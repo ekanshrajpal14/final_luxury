@@ -15,7 +15,7 @@
     .call_circle,
     .call_circle1 {
         width: 11vw;
-        height:11vw;
+        height: 11vw;
         font-size: 5vw;
     }
 
@@ -317,6 +317,10 @@
     .opt1 button {
         font-size: 2.5vw;
         padding: 1.3vw 2vw;
+    }
+
+    .circle_design i {
+        font-size: 5vw
     }
 
 
@@ -625,7 +629,7 @@
         width: 100%;
         text-transform: uppercase;
         transform: translate(-50%, -50%);
-        color: #eaf1f3;
+        color: #e1eff4e4;
     }
 
     #works_top>p {
@@ -683,7 +687,8 @@
         /* font-weight: 700; */
         letter-spacing: 0.7vw;
         text-transform: uppercase;
-        color: #eaf1f3;
+        /* color: #eaf1f3; */
+        color: #dbecf3;
     }
 
     .works_btm_boxeslast>h1 {
@@ -920,9 +925,10 @@
     .reviewbtm>p {
         font-size: 2.6vw;
     }
-        .reviewbtm{
-            padding: 0 2vw;
-        }
+
+    .reviewbtm {
+        padding: 0 2vw;
+    }
 
     .reviewbtm>div {
         margin-top: 5.5vw;

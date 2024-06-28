@@ -1,11 +1,41 @@
+@font-face {
+    font-family: gilroy-semi;
+    src: url("./fonts/Gilroy-Semibold.ttf");
+}
+
+@font-face {
+    font-family: gilroy;
+    src: url("./fonts/Gilroy-Regular.ttf");
+}
+
+@font-face {
+    font-family: gilroy-bold;
+    src: url("./fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+    font-family: circular;
+    src: url("./fonts/CircularSp-Book-4eaffdf96f4c6f984686e93d5d9cb325.ttf");
+}
+@font-face {
+    font-family: Eina03-Bold;
+    src: url("./fonts/Eina03-Bold.ttf");
+}
+@font-face {
+    font-family: banana-extrabold;
+    src: url("./fonts/banana-grotesk-extrabold.ttf");
+}
+
 .navbar_cover {
     width: 100%;
     height: 11vh;
 }
-
+a {
+    text-decoration: none;
+}
 .navbar {
     width: 100%;
     z-index: 999999;
+    font-family: circular;
     position: fixed;
     top: 0;
     height: 11vh;
@@ -226,8 +256,8 @@
 /* common code added here */
 
 .whatsapp_call_cont {
-    width: 4vw;
-    height: 6.5vw;
+    width: 5vw;
+        height: 8.5vw;
     position: fixed;
     bottom: 2%;
     right: 1%;
@@ -241,9 +271,9 @@
 
 .call_circle,
 .call_circle1 {
-    width: 3vw;
-    height: 3vw;
-    font-size: 1.7vw;
+    width: 4vw;
+    height: 4vw;
+    font-size: 2vw;
     /* font-weight: 50; */
     color: #fff;
     text-decoration: none;

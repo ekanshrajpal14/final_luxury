@@ -7,8 +7,23 @@
         clip-path: polygon(77% 0, 100% 0, 100% 100%, 0% 126%);
     }
 
+    .textbox {
+        z-index: 1;
+        position: relative;
+        background: none;
+        color: white;
+        font-size: 1.1rem;
+        letter-spacing: 2px;
+        line-height: 2em;
+        padding: 3rem;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+    }
+
     .part .textbox {
         width: 73%;
+        /* height: 80%; */
 
         h2 {
             font-size: 12vw;
@@ -37,6 +52,13 @@
             font-weight: 800;
             color: #000000;
             background-color: #ffffffb0;
+        }
+
+        a {
+            font-size: 4vw;
+            padding: 1vw 3vw;
+            height: 5vh;
+
         }
     }
 
@@ -126,7 +148,6 @@
         background-color: #5FAB23;
         border-radius: 23px;
         display: flex;
-        /* justify-content: center; */
         padding-top: 4vw;
         padding-left: 5vw;
         color: #ffff;

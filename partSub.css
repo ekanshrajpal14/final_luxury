@@ -323,7 +323,10 @@ body {
     justify-content: space-evenly;
     flex-direction: column;
 }
-
+.car_type_subscribe h1{
+    font-size: 3vw;
+    font-family: gilroy-bold;
+}
 
 .car_type_subscribe h1 span {
     color: #f5b754;

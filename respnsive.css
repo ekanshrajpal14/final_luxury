@@ -8,15 +8,15 @@
     }
 
     .whatsapp_call_cont {
-        width: 14vw;
-        height: 20vw;
+        width: 15vw;
+        height: 25vw;
     }
 
     .call_circle,
     .call_circle1 {
-        width: 9vw;
-        height: 9vw;
-        font-size: 4.7vw;
+        width: 11vw;
+        height:11vw;
+        font-size: 5vw;
     }
 
     .header {
@@ -152,6 +152,12 @@
         border-radius: 30px;
     }
 
+    .header_swiper_next_btn::after,
+    .header_swiper_prev_btn::after {
+        color: #fff;
+        font-size: 3vw;
+    }
+
     .about_page {
         height: 80vh;
     }
@@ -285,10 +291,7 @@
     .service_box_all h1 {
         font-size: 5.5vw;
         color: #ffffff;
-        text-decoration: underline ;
-        
         font-weight: bold;
-        /* background-color: #0000009f; */
     }
 
     .cars_top {
@@ -370,7 +373,7 @@
 
     .carsinfo {
         width: 43vw;
-        height:auto;
+        height: auto;
         justify-content: space-between;
         padding-bottom: 0;
 
@@ -412,9 +415,9 @@
 
     .carinfocont {
         min-height: 10vh;
-            padding: 0 1.7vw;
-            padding-bottom: 1vh;
-            gap: 1.2vw;
+        padding: 0 1.7vw;
+        padding-bottom: 1vh;
+        gap: 1.2vw;
 
         h1 {
             font-size: 4.4vw;
@@ -917,6 +920,9 @@
     .reviewbtm>p {
         font-size: 2.6vw;
     }
+        .reviewbtm{
+            padding: 0 2vw;
+        }
 
     .reviewbtm>div {
         margin-top: 5.5vw;

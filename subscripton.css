@@ -9,12 +9,67 @@ body {
     width: 100%;
     height: 100%;
 }
+@font-face {
+    font-family: banana;
+    src: url("./fonts/banana-grotesk-regular.ttf");
+}
 
+@font-face {
+    font-family: circular;
+    src: url("./fonts/CircularSp-Book-4eaffdf96f4c6f984686e93d5d9cb325.ttf");
+}
+
+@font-face {
+    font-family: banana-semi;
+    src: url("./fonts/banana-grotesk-semibold.ttf");
+}
+
+@font-face {
+    font-family: banana-extrabold;
+    src: url("./fonts/banana-grotesk-extrabold.ttf");
+}
+
+@font-face {
+    font-family: cako;
+    src: url("./fonts/cako-regular.ttf");
+}
+
+@font-face {
+    font-family: cako-regular;
+    src: url("./fonts/cako-regular-italic.ttf");
+}
+
+@font-face {
+    font-family: Eina03-SemiBold;
+    src: url("./fonts/Eina03-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: Eina03-Bold;
+    src: url("./fonts/Eina03-Bold.ttf");
+}
+
+@font-face {
+    font-family: Eina03-Regular;
+    src: url("fonts/Eina03-Regular.ttf");
+}
+@font-face {
+    font-family: gilroy-semi;
+ src: url(./fonts/Gilroy-Semibold.ttf);
+}
+@font-face {
+    font-family: gilroy;
+    src: url(./fonts/Gilroy-Regular.ttf);
+}
+@font-face {
+    font-family: gilroy-bold;
+    src: url(./fonts/Gilroy-Bold.ttf);
+}
 .part .mainsec {
     width: 100%;
     height: 100vh;
     display: flex;
-    font-family: gilroy;
+    /* font-family: gilroy-semi; */
     position: relative;
     /* color: #512e2e; */
     display: flex;
@@ -37,6 +92,7 @@ body {
         float: inline-end;
         color: #f5b754;
         right: 5%;
+        font-family: gilroy-bold;
         bottom: 5%;
         /* color: #ff9d00; */
         font-size: 2.2vw;
@@ -49,7 +105,7 @@ body {
 .part .textbox {
     position: relative;
     width: 50%;
-    height: 60%;
+    height: 75%;
     display: flex;
     flex-direction: column;
     gap: 1vw;
@@ -61,7 +117,8 @@ body {
     h2 {
         position: absolute;
         top: 0%;
-        /* left: 0%; */
+        font-family: gilroy-bold;
+        letter-spacing: 3px;
         font-size: 10vw;
         opacity: 0.1;
         color: rgb(130, 130, 131);
@@ -70,7 +127,7 @@ body {
     h6 {
         font-size: 1vw;
         text-transform: uppercase;
-        font-weight: 600;
+        font-weight: 500;
         letter-spacing: 1.5px;
         color: rgba(0, 0, 128, 0.825);
         /* margin-bottom: 1vw; */
@@ -80,6 +137,7 @@ body {
         font-size: 3.5vw;
         font-weight: 700;
         opacity: 0.9;
+        font-family: gilroy-bold;
         margin-bottom: 0.5vw;
     }
 
@@ -87,7 +145,7 @@ body {
         font-size: 1.15vw;
         width: 75%;
         opacity: 0.8;
-        
+        font-family:gilroy ;
         margin-bottom: 1vw;
     }
 
@@ -119,7 +177,7 @@ body {
     width: 100%;
     min-height: 140vh;
     padding-top: 2vw;
-    font-family: gilroy;
+    
     /* padding-bottom: 7vw; */
     background-color: #fbfbfb;
 
@@ -165,6 +223,7 @@ body {
     h1{
         text-align: center;
         font-size: 3vw;
+        font-family: gilroy-bold;
         font-weight: 700;
         span{
             color: #f5b754;
@@ -195,12 +254,14 @@ body {
     h1 {
         font-size: 3vw;
         font-weight: 700;
+        font-family: gilroy-bold;
         /* margin-bottom: 1.5vw; */
     }
 
     p {
         font-size: 1.1vw;
         width: 70%;
+        font-family: gilroy;
         margin-bottom: 3.2vw;
     }
 

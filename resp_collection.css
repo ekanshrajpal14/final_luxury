@@ -1,6 +1,6 @@
 @media screen and (max-width:600px) {
     .car-intro {
-        background: url('https://images.unsplash.com/photo-1563137391-0030ae24bc35?q=80&w=2073&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') repeat fixed 100%;
+        background: url('./UpdatedImages/service_parallax1.avif') repeat fixed 100%;
         background-position: center;
         background-size: cover;
         z-index: -1;
@@ -30,13 +30,10 @@
 
     .introcontent>h1 {
         font-size: 15vw;
-        /* font-weight: 500; */
         margin-bottom: 5vw;
         font-family: "Jersey 25", sans-serif;
         font-weight: 200;
         font-style: normal;
-
-        /* font-family: voyage; */
         span {
             color: #f5b754;
         }
@@ -151,7 +148,6 @@
         }
 
         .time {
-            /* margin-top: -.9vw; */
             font-size: 1.8vw !important;
         }
 
@@ -163,9 +159,6 @@
 
     }
 
-    /* #large {
-        height: 17vh !important;
-    } */
-
+    
     
 }

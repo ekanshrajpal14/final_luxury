@@ -44,7 +44,6 @@
     }
 
     .menu {
-        /* display: none; */
         width: 100vw;
         position: absolute;
         left: 0;
@@ -164,7 +163,6 @@
 
     .about {
         height: 100%;
-        /* position: relative; */
         flex-direction: column;
     }
 
@@ -174,7 +172,6 @@
         z-index: 9;
         height: 87%;
         padding: 0 7vw;
-        /* text-align: center; */
         background-color: #fff;
     }
 
@@ -184,6 +181,7 @@
 
     .left_about #para_about p {
         font-size: 2.5vw;
+        
         line-height: 3vw;
     }
 
@@ -297,8 +295,6 @@
     .cars_top {
         min-height: 30vh;
         padding-top: 2vw;
-        /* justify-content: center; */
-        /* gap: 7vw; */
     }
 
     .car_head2 p {
@@ -454,7 +450,6 @@
         }
 
         .time {
-            /* margin-top: -.9vw; */
             font-size: 1.8vw !important;
         }
 
@@ -466,11 +461,6 @@
 
     }
 
-    /* .height_car_info{
-        
-                height: 45% !important;
-            
-    } */
 
     #large {
         height: 17vh !important;
@@ -606,7 +596,6 @@
     #works_section {
         width: 100%;
         height: 115vh;
-        /* background-color: #7a4646; */
         font-family: gilroy;
         z-index: 1;
         position: relative;
@@ -616,7 +605,6 @@
     #works_top {
         width: 100%;
         height: 15%;
-        /* background-color: #010f4e; */
         position: relative;
     }
 
@@ -642,7 +630,6 @@
         top: 60%;
         left: 50%;
         font-size: 7vw;
-        /* color: #222222; */
         color: #253993;
         transform: translate(-50%, -50%);
 
@@ -657,7 +644,6 @@
         padding-bottom: 5vw;
         flex-direction: column;
         padding-top: 3vw;
-        /* background-color: #222222; */
     }
 
     .works_btm_boxes {
@@ -666,9 +652,7 @@
         position: relative;
         display: flex;
         flex-direction: column;
-
         align-items: center;
-
     }
 
     .works_btm_boxeslast {
@@ -677,14 +661,11 @@
         position: relative;
         display: flex;
         flex-direction: column;
-
         align-items: center;
-
     }
 
     .works_btm_boxes>h1 {
         font-size: 10vw;
-        /* font-weight: 700; */
         letter-spacing: 0.7vw;
         text-transform: uppercase;
         /* color: #eaf1f3; */
@@ -693,7 +674,6 @@
 
     .works_btm_boxeslast>h1 {
         font-size: 10vw;
-        /* font-weight: 700; */
         letter-spacing: 0.7vw;
         text-transform: uppercase;
         color: #eaf1f3;
@@ -723,7 +703,7 @@
         height: 1px;
         content: '';
         overflow: hidden;
-        background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0)));
+        /* background-image: -webkit-gradient(linear, left top, right top, color-stop(40%, #ccc), color-stop(0, rgba(255, 255, 255, 0))); */
         background-image: -webkit-linear-gradient(left, #000000 40%, rgba(255, 255, 255, 0) 0);
         background-image: -o-linear-gradient(left, #000000 40%, rgba(255, 255, 255, 0) 0);
         background-image: linear-gradient(to right, #2e31f8ac 40%, rgba(255, 255, 255, 0) 0);
@@ -743,9 +723,7 @@
     }
 
     #odd {
-        /* display: flex; */
         flex-direction: column;
-        /* flex-direction: column-reverse; */
     }
 
     #oddbx {
@@ -753,7 +731,7 @@
     }
 
     #parallaxsection {
-        background: url('https://images.pexels.com/photos/1157417/pexels-photo-1157417.jpeg') repeat fixed 100%;
+        background: url('./UpdatedImages/parallax_img1.jpeg') repeat fixed 100%;
         background-position: center;
         background-size: cover;
         display: flex;
@@ -761,12 +739,7 @@
         height: 70vh;
         width: 100%;
         overflow: hidden;
-        /* transition: all cubic-bezier(0.19, 1, 0.22, 1) 2s; */
     }
-
-    /* #parallaxsection:hover{
-    transform: scale(1.1);
-} */
 
     #parallaxinner {
         width: 100%;
@@ -775,10 +748,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
         font-family: gilroy;
-
-
     }
 
     #parallaxinnertext>h3 {
@@ -832,8 +802,6 @@
         text-decoration: none;
         border-radius: 10px;
         font-weight: 500;
-        /* position: relative; */
-        /* overflow: hidden; */
         transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
         letter-spacing: 0.2px;
     }
@@ -956,15 +924,12 @@
     .boxdets {
         width: 100%;
         height: 50%;
-        /* background-color: #0d026b; */
         display: flex;
         flex-direction: column;
         justify-content: center;
-        /* align-items: center; */
         padding-left: 5.5vw;
         padding-top: 0.5vw;
         gap: 3vw;
-        /* margin-bottom: 1vw; */
     }
 
     .boximg {
@@ -990,15 +955,12 @@
         align-items: start;
         padding: 0;
         width: 90%;
-
-        /* background-color: #f5b754; */
     }
 
     .boxname>h4 {
         font-weight: 500;
         font-size: 5.2vw;
         margin-bottom: 0.5vw;
-
     }
 
     .boxname>span {
@@ -1031,13 +993,11 @@
         margin-right: auto;
         margin-bottom: 5.5vw;
         opacity: 0.9;
-        /* background-color: #000000; */
     }
 
     .boxcontent>a {
         float: right;
         padding: 0.5vw 1vw;
-        /* background-color: #253993; */
         color: rgb(0, 0, 0);
         text-decoration: none;
         font-size: 4vw;

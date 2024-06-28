@@ -66,7 +66,7 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 },
 // { name: "XUV 300", type: "self", price: "4999", brand: "Mahindra", idval: "", time: "8HRS/80KMS", category: "Compact SUV", year: "" , img: "CollectionsImages/.jpg", img1: "CollectionsImages/bmwa52.jpg", img2: "CollectionsImages/bmwa53.jpg" },
 { name: "Q3", type: "self", price: "24999", brand: "Audi", idval: "", time: "8HRS/80KMS", category: "Luxury SUV", year: "", img: "CollectionsImages/AUDIQ3-1.jpg", img1: "CollectionsImages/AUDIQ3-2.jpg", img2: "CollectionsImages/AUDIQ3-3.jpg" },
-// /vintage car
+// vintage car
 
 
 {
@@ -85,8 +85,8 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 {
     name: "FOTON 9+1 Executive Van", type: "non", price: "8999", brand: "Benz", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/VClass1.jpg", img1: "CollectionsImages/VClass2.jpg", img2: "CollectionsImages/VCLASS3.jpg"
 },
-    { name: "Mini TEMPO TRAVELLER 7+1 SEATER", type: "non", price: "5999", brand: "Tata", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/TEMPOVAN1.jpg", img1: "CollectionsImages/TEMPOVAN2.jpg", img2: "CollectionsImages/TEMPOVAN3.jpg" },
-    { name: "TEMPO TRAVELLER 9+1 SEATER", type: "non", price: "5999", brand: "Tata", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/TEMPO9-1.jpg", img1: "CollectionsImages/TEMPO9-2.jpg", img2: "CollectionsImages/TEMPO9-3.jpg" },
+{ name: "Mini TEMPO TRAVELLER 7+1 SEATER", type: "non", price: "5999", brand: "Tata", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/TEMPOVAN1.jpg", img1: "CollectionsImages/TEMPOVAN2.jpg", img2: "CollectionsImages/TEMPOVAN3.jpg" },
+{ name: "TEMPO TRAVELLER 9+1 SEATER", type: "non", price: "5999", brand: "Tata", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/TEMPO9-1.jpg", img1: "CollectionsImages/TEMPO9-2.jpg", img2: "CollectionsImages/TEMPO9-3.jpg" },
 { name: "TEMPO TRAVELLER 12+1 SEATER", type: "non", price: "3999", brand: "Force", idval: "large", time: "8HRS/80KMS", category: "Van", year: "", img: "CollectionsImages/TEMPOTRAVELLER1.jpg", img1: "CollectionsImages/TEMPOTRAVELLER_added.jpg", img2: "CollectionsImages/TEMPOTRAVELLER3.jpg" },
 { name: "BHARAT BENZ 25 seater", type: "non", price: "11999", brand: "", idval: "large", time: "8HRS/80KMS", category: "Bus", year: "", img: "CollectionsImages/BHARATBENZ1.jpg", img1: "CollectionsImages/BHARATBEZ2.jpg", img2: "CollectionsImages/BHARATBENZ3.jpg" },
 { name: "BHARAT BENZ 35 seater", type: "non", price: "14999", brand: "", idval: "large", time: "8HRS/80KMS", category: "Bus", year: "", img: "CollectionsImages/BHARATBENZ1.jpg", img1: "CollectionsImages/BHARATBEZ2.jpg", img2: "CollectionsImages/BHARATBENZ3.jpg" },
@@ -96,9 +96,13 @@ var arr = [{ name: "Fortuner", type: "luxury", price: "7999", brand: "Toyota", i
 
 ];
 
+
+
+
 function displayArr(arr) {
+
     var clultter = "";
-    // main.innerHTML = "";
+
     arr.forEach((item) => {
         clultter += `<div class="carsinfo">
                             <div class="carinforight">
@@ -152,66 +156,44 @@ function displayArr(arr) {
                             </div>
                         </div>`;
     });
-    console.log("yes");
     main.innerHTML = clultter;
+    
+    
+
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        autoplay: true,
+        loop: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+    });
+
 }
 displayArr(arr);
-//<button><i class="ri-user-line"></i>5</button>
 
-// const otp = document.querySelectorAll("#category");
-// otp.forEach((item) => {
-//     item.addEventListener("click", () => {
-//         const id = item.getAttribute("data-category");
-//         const box = document.querySelectorAll(".box");
-//         box.forEach((item) => {
-//             if (item.getAttribute("data-id") === id) {
-//                 item.style.display = "block";
-//             } else {
-//                 item.style.display = "none";
-//             }
-//         });
-//     });
+document.querySelector("select").addEventListener("change", function (re) {
 
-// });
-// var allopt = document.querySelectorAll("select");
-// document.querySelector("select").addEventListener("click",(a)=>{
-// })
-// allopt.forEach(function(it){
-    
- document.querySelector("select").addEventListener("change", function (re) {
-
-     console.log(re);
     var category = document.querySelector("#category");
-    console.log("djab");
-        if (category.value == "all") {
-            displayArr(arr)
-            return;
-        }
-        var newData = arr.filter(function (e) {
-            return e.category == category.value;
-        });
-        if(newData.length == ""){
-            alert("Currently, All cars are booked in this category!!Sorry, You can choose any other category or contact us")
-            category.value =""
-            return;
-        }
-        if (category.value != "") {
-            displayArr(newData)
-        }
-        // else {
-        //     alert("Please Select Correct Type")
-        // }
-        
-        
-        re.preventDefault();
-
-
-    })
-// })
-
-
-// allopt.forEach((el)=>{
-//     el.addEventListener("click",function(eaaa){
-//         console.log(eaaa.target);
-//     })
-// })
+    if (category.value == "all") {
+        displayArr(arr);
+        return;
+    }
+    var newData = arr.filter(function (e) {
+        return e.category == category.value;
+    });
+    if (newData.length == "") {
+        alert("Currently, All cars are booked in this category!!Sorry, You can choose any other category or contact us")
+        category.value = ""
+        return;
+    }
+    if (category.value != "") {
+        displayArr(newData);
+    }
+    re.preventDefault();
+});

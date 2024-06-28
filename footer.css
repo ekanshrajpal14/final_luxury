@@ -19,7 +19,6 @@
     align-items: center;
     flex-direction: column;
     gap: 1.5vw;
-    /* font-family: gilroy; */
     color: white;
     background-color: #253993;
     overflow: hidden;
@@ -150,10 +149,7 @@
     height: 60%;
     display: flex;
     gap: 3vw;
-    /* justify-content:space-around; */
     align-items: flex-end;
-
-    /* background-color: aliceblue; */
 }
 
 #ftrcontentbox1 {
@@ -161,7 +157,6 @@
     width: 22%;
     height: 90%;
     overflow: hidden;
-    /* background-color: #253993; */
 }
 
 #logoimg {
@@ -169,7 +164,7 @@
     height: 120px;
     background-size: cover;
     background-position: center;
-    background-image: url('https://ekanshrajpal14.github.io/Luxury-Car/images/logo-removebg-preview.png');
+    background-image: url('./images/logo-removebg-preview.png');
 }
 
 #ftrcontentbox1_logo {
@@ -250,14 +245,11 @@
     width: 100%;
     gap: 7vw;
     display: flex;
-    /* justify-content: space-between; */
 }
 
-/* #linkbox:nth-child(2) {} */
 
 #line {
     width: 1px;
-    /* height: 100px; */
     display: flex;
     background-color: rgba(255, 255, 255, 0.358);
 }

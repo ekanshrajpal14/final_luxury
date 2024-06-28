@@ -15,7 +15,7 @@ body {
     width: 100%;
     height: 100vh;
     position: relative;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: circular;
 }
 
 .temp {
@@ -94,13 +94,13 @@ body {
     height: 37%;
     display: flex;
     width: 75%;
-    /* align-items: center; */
     justify-content: space-evenly;
     flex-direction: column;
 }
 
 .left_subs .part_two_why_sub p {
     font-size: 1.2vw;
+    font-family: gilroy;
 }
 
 .left_subs .part_three_why_sub a {
@@ -120,7 +120,6 @@ body {
     width: 50%;
     transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
     height: 100%;
-    /* background-color: rgb(77, 185, 185); */
     overflow: hidden;
 }
 
@@ -137,7 +136,6 @@ body {
     width: 100%;
     height: 25%;
     position: relative;
-    /* background-color: rgb(190, 167, 133); */
 }
 
 .subs_data_box_one {
@@ -146,7 +144,6 @@ body {
     background-color: #5FAB23;
     border-radius: 40px;
     display: flex;
-    /* justify-content: center; */
     padding-top: 2vw;
     padding-left: 3vw;
     color: #ffff;
@@ -165,18 +162,15 @@ body {
     background-repeat: no-repeat;
     background-image: url(./UpdatedImages/starfinal.png);
     
-    /* background-image: url(https://www.invygo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstars.1ef6cc24.png&w=1920&q=75); */
+    
 }
 
 .subs_data_box {
-    /* width: 13vw;
-    height: 13vh; */
     padding: 30px;
     border-radius: 40px;
     width: 250px;
     background: rgb(236, 245, 229);
     position: absolute;
-    /* background-color: #ECF5E5; */
 }
 
 .subs_data_box_two {
@@ -187,7 +181,7 @@ body {
 .subs_data_box_three {
     right: 10%;
     top: 37%;
-    width: 200px;
+    width: 220px;
 }
 
 .subs_data_box_four {
@@ -198,7 +192,7 @@ body {
 
 .subs_data_box p {
     font-size: 1.4vw;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Eina03-Regular;
 }
 
 .right_part_one_subs_two .subs_data_box_one {
@@ -207,6 +201,7 @@ body {
 
 .right_part_one_subs_two .subs_data_box {
     background-color: #F2E8FB;
+
 }
 
 .right_part_one_subs_three .subs_data_box_one {

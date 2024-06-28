@@ -76,16 +76,16 @@
 
 
     /* coomon code added here */
-        .whatsapp_call_cont {
-            width: 14vw;
-            height: 20vw;
-        }
-    
-        .call_circle,
-        .call_circle1 {
-            width: 9vw;
-            height: 9vw;
-            text-decoration: none;
-            font-size: 4.7vw;
-        }
+    .whatsapp_call_cont {
+        width: 15vw;
+        height: 24vw;
+    }
+
+    .call_circle,
+    .call_circle1 {
+        width: 11vw;
+        height: 11vw;
+        text-decoration: none;
+        font-size: 5vw;
+    }
 }
